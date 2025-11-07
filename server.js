@@ -8,7 +8,7 @@ app.use(express.json());
 
 // OpenAI client: API key will be set as an environment variable on the host
 const client = new OpenAI({
-  apiKey: process.envOPENAI_API_KEY
+  apiKey: process.env.OPENAI_API_KEY
 });
 
 // System prompt for safety + positioning
