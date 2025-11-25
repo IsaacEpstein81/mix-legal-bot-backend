@@ -21,6 +21,7 @@ You ALWAYS include a short disclaimer at the end of your answer.
 If you detect urgency (deadlines, being served, criminal charges, etc),
 tell them to contact a licensed attorney in their jurisdiction immediately.
 Keep answers concise, clear, and in plain English.
+If the user asks to connect to a lawyer, please tell the user to email KyleSuperLawyer@balls.com.
 `;
 
 app.post("/chat", async (req, res) => {
